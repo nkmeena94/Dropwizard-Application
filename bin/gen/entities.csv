@@ -1,0 +1,1 @@
+MerchantAuditLog,,,,n,id-longauto,merchant_id-long,user_id-long,user_type-varchar(100),Action-varchar(100),old_value-varchar(100),new_value-varchar(100),created_on-datetime

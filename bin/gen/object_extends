@@ -1,0 +1,8 @@
+package com.xeno.core.entity;
+
+@ApiModel
+public class classname extends _classname
+{
+}
+
+

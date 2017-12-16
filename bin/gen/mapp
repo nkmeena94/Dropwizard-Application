@@ -1,0 +1,16 @@
+package com.xeno.db.mapper;
+
+import org.skife.jdbi.v2.tweak.ResultSetMapper;
+import org.skife.jdbi.v2.StatementContext;
+import java.sql.*;
+import com.xeno.core.entity.classname;
+
+public class classnameMapper implements ResultSetMapper<classname>
+{
+  public classname map(int index, ResultSet r, StatementContext ctx) throws SQLException
+  { 
+    classname obj = new classname();
+    contentz	
+    return obj;	
+  }
+}

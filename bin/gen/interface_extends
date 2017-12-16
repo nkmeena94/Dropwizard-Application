@@ -1,0 +1,15 @@
+package com.xeno.db.dao;
+
+import com.xeno.db.mapper.classnameMapper;
+import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapper;
+
+/**
+*	Table structure
+*	contento
+*	contentupdate
+*/
+
+registermapper
+public interface classnameDAO extends _classnameDAO
+{
+}

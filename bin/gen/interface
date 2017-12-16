@@ -1,0 +1,28 @@
+package com.xeno.db.dao;
+
+import com.xeno.core.entity.classname;
+import org.skife.jdbi.v2.sqlobject.*;
+import java.util.Date;
+import java.util.Set;
+import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapper;
+import com.xeno.db.mapper.classnameMapper;
+
+registermapper
+public interface daonameDAO
+{
+  @SqlQuery("contento")
+  classname findById(@Bind("key") key_type primarykey);
+
+  @SqlQuery("select * from classnamel")
+  Set<classname> loadAll();
+
+  @SqlUpdate("delete from classnamel where primarykey = :key")
+  int remove(@Bind("key") key_type primarykey);
+  
+  autogenkey_annotation
+  @SqlUpdate("insert into classnamel (content1) values (contentcolon)")
+  return_autogenkey insert(@BindBean classname obj);
+
+  @SqlUpdate("update classnamel set contentupdate")
+  int update(@BindBean classname obj);
+}
