@@ -150,6 +150,8 @@
 #    "restartSyncer"   ) killprocess "address=$DEBUG_PORT" ; startSyncer ;;
 #    ""|*        ) usage ; exit 1 ;;
 #esac
+
+
 #!/usr/bin/env bash
 checkIfStarted() {
     PORT=$1
