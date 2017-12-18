@@ -7,10 +7,8 @@ import org.hibernate.validator.constraints.NotEmpty;
 public class MyAppConfiguration extends Configuration {
     @NotEmpty
     private String template;
-
     @NotEmpty
     private String defaultName = "xyz";
-
     @JsonProperty
     public String getTemplate() {
         return template;
